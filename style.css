@@ -1,0 +1,26 @@
+body {
+    background-color: darkgray;
+    padding: 20px;
+}
+
+table {
+    background-color: #D28C45;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 75px;
+    height: 75px;
+}
+
+tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even) {
+	background: #FECFA0;
+}
+
+.piece {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
